@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Norman</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
+<style>
+body {
+  background: #212121;
+  font-family: "Candara";
+  width: 100%;
+  color: #666;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+nav {
+  background: #212121;
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+.socialbtns, .socialbtns ul, .socialbtns li {
+  margin: 0;
+  padding: 0;
+  height: auto;
+}
+
+.socialbtns li {
+  list-style: none outside none;
+  display: inline-block;
+  padding: 5px;
+}
+
+.socialbtns .fa {
+  color: #666;
+  background: #212121;
+  box-shadow: 1px -0px 3px 1px #999;
+  width: 40px;
+  height: 28px;
+  padding-top: 12px;
+  border-radius: 30px;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -o-border-radius: 30px;
+  transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -webkit-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  transform: rotate(-360deg);
+  -moz-transform: rotate(-360deg);
+  -webkit-transform: rotate(-360deg);
+  -o-transform: rotate(-360deg);
+}
+
+.socialbtns .fa:hover {
+  text-shadow: inset 1px 1px 1px #eee;
+  color: #ddd;
+  transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -webkit-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+}
+
+.main {
+  max-width: 100%;
+  width: auto;
+  margin: 100px auto;
+  padding: 100px auto;
+  align-content: center;
+  align-items: center;
+}
+
+button {
+  color: #666;
+  background: #212121;
+  box-shadow: 1px -0px 3px 1px #999;
+  width: 400px;
+  height: 50px;
+  font-size: 18px;
+  padding-top: 10px;
+  border-radius: 30px;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -o-border-radius: 30px;
+  transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -webkit-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  transform: rotate(-360deg);
+  -moz-transform: rotate(-360deg);
+  -webkit-transform: rotate(-360deg);
+  -o-transform: rotate(-360deg);
+}
+
+button a:hover {
+  text-shadow: inset 1px 1px 1px #eee;
+  color: #ddd;
+  transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -webkit-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+}
+
+h1 {
+  font-size: 35px;
+  word-break: break-all;
+  text-align: center;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px double #666;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.row {
+  margin: 0 auto;
+  padding: 5px auto;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  display: flex;
+  float: left;
+  width: 31.5%;
+  margin: 0;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background: #111;
+  box-shadow: 1px -0px 3px 1px #999;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 1200px) {
+  .main {
+    margin: 50px;
+    padding: 0;
+  }
+  .column {
+    width: auto;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+  .main {
+    margin: 0;
+    padding: 0;
+  }
+  .content {
+    width: auto;
+  }
+  h1 {
+    font-size: 30px;
+    margin: 5px;
+  }
+}
+  </style>
+</head>
+<body>
+   <nav align="center" class="socialbtns">
+    <ul>
+      <li><a href="https://xamr0n.github.io/" class="fa fa-lg fa-home" title="Home"></a></li>
+      <li><a href="https://xamronpc.github.io/cv.html" class="fa fa-lg fa-user" title="About Me"></a></li>
+      <li><a href="https://xamr0n.github.io/webslide-portfolio" class="fa fa-lg fa-briefcase" title="Webslides"></a></li>
+      <li><a href="mailto:calayonorman@gmail.com" class="fa fa-lg fa-envelope" title="Email Me"></a></li>
+      <li><a href="#" class="fa fa-lg fa-pencil" title="istoryahe"></a></li>
+      <li><a href="#" class="fa fa-lg fa-qrcode" title="QR Code"></a></li>
+      <li><a href="#" class="fa fa-lg fa-code" title="Code"></a></li> 
+    </ul>
+  </nav>
+  <!-- MAIN (Center website) -->
+  <div class="main">
+    <h1>MS EXCEL FUNCTIONS</h1>
+    <div id="observablehq-chart-af5847d9"></div>
+    <p>Credit: <a href="https://observablehq.com/d/4f3f963a405dfbb5@279">Norman</a></p>
+  </div>
+  <script type="module">
+    import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
+    import define from "https://api.observablehq.com/d/4f3f963a405dfbb5@279.js?v=4";
+    new Runtime().module(define, name => {
+      if (name === "chart") return new Inspector(document.querySelector("#observablehq-chart-af5847d9"));
+    });
+  </script>
+</body>
+</html>
