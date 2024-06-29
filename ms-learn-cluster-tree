@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Radial Cluster Tree</title>
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+  <style>
+    body {
+      font-family: 'Rockwell Condensed', sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <script>
+    // Load the JSON data
+    d3.json('learn.json').then(data => {
+      const width = 2528;
+      const height = width;
+      const cx = width * 0.5;
+      const cy = height * 0.5;
+      const radius = Math.min(width, height) / 3 - 10;
+
+      const tree = d3.cluster()
+          .size([2 * Math.PI, radius])
+          .separation((a, b) => (a.parent == b.parent ? 1 : 1) / a.depth);
+
+      const root = tree(d3.hierarchy(data)
+          .sort((a, b) => d3.ascending(a.data.name, b.data.name)));
+
+      const svg = d3.create("svg")
+          .attr("width", width)
+          .attr("height", height)
+          .attr("viewBox", [-cx, -cy, width, height])
+          .attr("style", "width: 100%; height: auto; font: 12px Rockwell Condensed;");
+
+      svg.append("g")
+          .attr("fill", "none")
+          .attr("stroke", "#555")
+          .attr("stroke-opacity", 0.4)
+          .attr("stroke-width", 0.5)
+        .selectAll("path")
+        .data(root.links())
+        .join("path")
+          .attr("d", d3.linkRadial()
+              .angle(d => d.x)
+              .radius(d => d.y));
+
+      svg.append("g")
+        .selectAll("circle")
+        .data(root.descendants())
+        .join("circle")
+          .attr("transform", d => `rotate(${d.x * 180 / Math.PI - 90}) translate(${d.y},0)`)
+          .attr("fill", d => d.children ? "#555" : "#999")
+          .attr("r", 2.5)
+          .on("mouseover", function(event, d) {
+            d3.select(this).attr("r", 5);
+          })
+          .on("mouseout", function(event) {
+            d3.select(this).attr("r", 2.5);
+          });
+
+      svg.append("g")
+          .attr("stroke-linejoin", "round")
+          .attr("stroke-width", 0.5)
+        .selectAll("text")
+        .data(root.descendants())
+        .join("text")
+          .attr("transform", d => `rotate(${d.x * 180 / Math.PI - 90}) translate(${d.y},0) rotate(${d.x >= Math.PI ? 180 : 0})`)
+          .attr("dy", "0.31em")
+          .attr("x", d => d.x < Math.PI === !d.children ? 6 : -6)
+          .attr("text-anchor", d => d.x < Math.PI === !d.children ? "start" : "end")
+          .attr("paint-order", "stroke")
+          .attr("stroke", "black")
+          .attr("fill", "currentColor")
+          .each(function(d) {
+            let parentWithUrl = d;
+            while (parentWithUrl.depth > 1 && !parentWithUrl.data.url) {
+              parentWithUrl = parentWithUrl.parent;
+            }
+            if (parentWithUrl.data.url) {
+              d3.select(this)
+                .append("a")
+                .attr("xlink:href", parentWithUrl.data.url)
+                .attr("target", "_blank")
+                .text(d.data.name);
+            } else {
+              d3.select(this)
+                .text(d.data.name);
+            }
+          })
+          .on("mouseover", function(event, d) {
+            d3.select(this).attr("font-size", "28px").attr("font-weight", "bold");
+          })
+          .on("mouseout", function() {
+            d3.select(this).attr("font-size", null).attr("font-weight", null);
+          });
+
+      document.body.appendChild(svg.node());
+    });
+  </script>
+</body>
+</html>
