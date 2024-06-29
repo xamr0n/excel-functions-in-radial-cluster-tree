@@ -1,0 +1,1186 @@
+{
+    "name": "MICROSOFT LEARN",
+    "children": [
+        {
+            "name": "Administrator",
+            "children": [
+                {
+                    "name": "Beginner",
+                    "url": "https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/",
+                    "children": [
+                        {
+                            "name": "Describe the benefits of using cloud services"
+                        },
+                        {
+                            "name": "Describe cloud service types"
+                        },
+                        {
+                            "name": "Microsoft Azure Fundamentals: Describe cloud concepts"
+                        },
+                        {
+                            "name": "Describe monitoring tools in Azure"
+                        },
+                        {
+                            "name": "Describe cloud computing"
+                        },
+                        {
+                            "name": "Describe features and tools for managing and deploying Azure resources"
+                        },
+                        {
+                            "name": "Describe features and tools in Azure for governance and compliance"
+                        },
+                        {
+                            "name": "Microsoft Azure Fundamentals: Describe Azure management and governance"
+                        },
+                        {
+                            "name": "Describe Azure compute and networking services"
+                        },
+                        {
+                            "name": "Describe Azure identity, access, and security"
+                        },
+                        {
+                            "name": "Describe the core architectural components of Azure"
+                        },
+                        {
+                            "name": "Describe cost management in Azure"
+                        },
+                        {
+                            "name": "Describe Azure storage services"
+                        },
+                        {
+                            "name": "Microsoft Azure Fundamentals"
+                        },
+                        {
+                            "name": "Microsoft Azure Fundamentals: Describe Azure architecture and services"
+                        },
+                        {
+                            "name": "Introduction to Copilot for Microsoft 365"
+                        },
+                        {
+                            "name": "Explore the possibilities with Copilot for Microsoft 365"
+                        },
+                        {
+                            "name": "Introduction to Azure Cloud Shell"
+                        },
+                        {
+                            "name": "Explore fundamentals of data visualization"
+                        },
+                        {
+                            "name": "Explore Azure Storage for non-relational data"
+                        },
+                        {
+                            "name": "Introduction to GitHub Copilot for Business"
+                        },
+                        {
+                            "name": "Explore fundamentals of real-time analytics"
+                        },
+                        {
+                            "name": "Administer Microsoft Fabric"
+                        },
+                        {
+                            "name": "Optimize and extend Copilot for Microsoft 365"
+                        },
+                        {
+                            "name": "Introduction to Bash"
+                        },
+                        {
+                            "name": "AZ-104: Prerequisites for Azure administrators"
+                        },
+                        {
+                            "name": "Configure resources with Azure Resource Manager templates"
+                        },
+                        {
+                            "name": "What is Microsoft 365?"
+                        },
+                        {
+                            "name": "Secure your Azure resources with Azure role-based access control (Azure RBAC)"
+                        },
+                        {
+                            "name": "Explore Windows Editions"
+                        },
+                        {
+                            "name": "Create Azure users and groups in Microsoft Entra ID"
+                        },
+                        {
+                            "name": "AZ-104: Manage identities and governance in Azure"
+                        },
+                        {
+                            "name": "Use Azure Resource Manager"
+                        }
+                    ]
+                },
+                {
+                    "name": "Intermediate",
+                    "url": "https://learn.microsoft.com/en-us/training/modules/understand-azure-active-directory/",
+                    "children": [
+                        {
+                            "name": "Understand Microsoft Entra ID"
+                        },
+                        {
+                            "name": "Monitor Azure AI services"
+                        },
+                        {
+                            "name": "Introduction to GitHub's products"
+                        },
+                        {
+                            "name": "Configure subscriptions"
+                        },
+                        {
+                            "name": "Configure user and group accounts"
+                        },
+                        {
+                            "name": "Explore the Enterprise Desktop"
+                        }
+                    ]
+                },
+                {
+                    "name": "Advanced",
+                    "url": "https://learn.microsoft.com/en-us/training/modules/introduction-to-github-actions/",
+                    "children": [
+                        {
+                            "name": "Introduction to GitHub Actions"
+                        },
+                        {
+                            "name": "Explore Azure Pipelines"
+                        },
+                        {
+                            "name": "Learn continuous integration with GitHub Actions"
+                        },
+                        {
+                            "name": "Secure Azure AI services"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "AI Engineer",
+            "children": [
+                {
+                    "name": "Beginner",
+                    "url": "https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/",
+                    "children": [
+                        {
+                            "name": "Fundamental AI Concepts"
+                        },
+                        {
+                            "name": "Fundamentals of Azure AI services"
+                        },
+                        {
+                            "name": "Fundamentals of Generative AI"
+                        },
+                        {
+                            "name": "Fundamentals of machine learning"
+                        },
+                        {
+                            "name": "Fundamentals of optical character recognition"
+                        },
+                        {
+                            "name": "Fundamentals of Facial Recognition"
+                        },
+                        {
+                            "name": "Fundamentals of question answering with the Language Service"
+                        },
+                        {
+                            "name": "Fundamentals of Azure AI Speech"
+                        },
+                        {
+                            "name": "Microsoft Azure AI Fundamentals: AI Overview"
+                        },
+                        {
+                            "name": "Fundamentals of Azure OpenAI Service"
+                        },
+                        {
+                            "name": "Fundamentals of Computer Vision"
+                        },
+                        {
+                            "name": "Fundamentals of Text Analysis with the Language Service"
+                        },
+                        {
+                            "name": "Microsoft Azure AI Fundamentals: Computer Vision"
+                        },
+                        {
+                            "name": "Microsoft Azure AI Fundamentals: Natural Language Processing"
+                        },
+                        {
+                            "name": "Microsoft Azure AI Fundamentals: Generative AI"
+                        },
+                        {
+                            "name": "Microsoft Azure AI Fundamentals"
+                        },
+                        {
+                            "name": "Fundamentals of Azure AI Document Intelligence"
+                        },
+                        {
+                            "name": "Microsoft Azure AI Fundamentals: Document Intelligence and Knowledge Mining"
+                        }
+                    ]
+                },
+                {
+                    "name": "Intermediate",
+                    "url": "https://learn.microsoft.com/en-us/training/modules/responsible-generative-ai/",
+                    "children": [
+                        {
+                            "name": "Fundamentals of Responsible Generative AI"
+                        },
+                        {
+                            "name": "Get started with Azure OpenAI Service"
+                        },
+                        {
+                            "name": "Use prebuilt Document intelligence models"
+                        },
+                        {
+                            "name": "Plan an Azure AI Document Intelligence solution"
+                        },
+                        {
+                            "name": "Analyze images"
+                        },
+                        {
+                            "name": "Create a composed Document intelligence model"
+                        },
+                        {
+                            "name": "Extract data from forms with Azure Document intelligence"
+                        },
+                        {
+                            "name": "Build a Document intelligence custom skill for Azure AI search"
+                        },
+                        {
+                            "name": "Build natural language solutions with Azure OpenAI Service"
+                        },
+                        {
+                            "name": "Fundamentals of conversational language understanding"
+                        },
+                        {
+                            "name": "Apply prompt engineering with Azure OpenAI Service"
+                        },
+                        {
+                            "name": "Generate code with Azure OpenAI Service"
+                        },
+                        {
+                            "name": "Generate images with Azure OpenAI Service"
+                        },
+                        {
+                            "name": "Implement Retrieval Augmented Generation (RAG) with Azure OpenAI Service"
+                        },
+                        {
+                            "name": "Image classification with custom Azure AI Vision models"
+                        },
+                        {
+                            "name": "Read Text in images and documents with the Azure AI Vision Service"
+                        },
+                        {
+                            "name": "Analyze video"
+                        },
+                        {
+                            "name": "Develop solutions with Azure AI Document Intelligence"
+                        },
+                        {
+                            "name": "Introduction to Azure AI Studio"
+                        },
+                        {
+                            "name": "Detect, analyze, and recognize faces"
+                        },
+                        {
+                            "name": "Create a custom text classification solution"
+                        },
+                        {
+                            "name": "Build a conversational language understanding model"
+                        },
+                        {
+                            "name": "Translate speech with the Azure AI Speech service"
+                        },
+                        {
+                            "name": "Create speech-enabled apps with Azure AI services"
+                        },
+                        {
+                            "name": "Translate text with Azure AI Translator service"
+                        },
+                        {
+                            "name": "Create question answering solutions with Azure AI Language"
+                        },
+                        {
+                            "name": "Custom named entity recognition"
+                        },
+                        {
+                            "name": "Create an Azure AI Search solution"
+                        },
+                        {
+                            "name": "Analyze text with Azure AI Language"
+                        },
+                        {
+                            "name": "Create and consume Azure AI services"
+                        },
+                        {
+                            "name": "Create computer vision solutions with Azure AI Vision"
+                        },
+                        {
+                            "name": "Develop Generative AI solutions with Azure OpenAI Service"
+                        },
+                        {
+                            "name": "Develop natural language processing solutions with Azure AI Services"
+                        },
+                        {
+                            "name": "Deploy Azure AI services in containers"
+                        },
+                        {
+                            "name": "Prepare to develop AI solutions on Azure"
+                        },
+                        {
+                            "name": "Responsible generative AI in AI Studio"
+                        },
+                        {
+                            "name": "Get started with Azure AI Services"
+                        },
+                        {
+                            "name": "Designing and Implementing a Microsoft Azure AI Solution"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "App Maker",
+            "children": [
+                {
+                    "name": "Beginner",
+                    "url": "https://learn.microsoft.com/en-us/training/modules/power-virtual-agents-bots/",
+                    "children": [
+                        {
+                            "name": "Get started with Microsoft Copilot Studio"
+                        },
+                        {
+                            "name": "Configure flow control in Power Automate for desktop"
+                        },
+                        {
+                            "name": "Introduction to Copilot in Microsoft Power Platform"
+                        },
+                        {
+                            "name": "Power Automate for desktop development essentials"
+                        },
+                        {
+                            "name": "Automate system, workstation, and services actions in Power Automate for desktop"
+                        },
+                        {
+                            "name": "Enhance Microsoft Copilot Studio copilots"
+                        },
+                        {
+                            "name": "Communicate using message boxes in Power Automate for desktop flows"
+                        },
+                        {
+                            "name": "Use Copilot in Power Pages"
+                        },
+                        {
+                            "name": "Adjust process behavior using conditional actions with Power Automate for desktop"
+                        }
+                    ]
+                },
+                {
+                    "name": "Intermediate",
+                    "url": "https://learn.microsoft.com/en-us/training/modules/dax-power-bi-add-measures/",
+                    "children": [
+                        {
+                            "name": "Add measures to Power BI Desktop models"
+                        },
+                        {
+                            "name": "Add calculated tables and columns to Power BI Desktop models"
+                        },
+                        {
+                            "name": "Build effective copilots with Microsoft Copilot Studio"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Business Analyst",
+            "children": [
+                {
+                    "name": "Beginner",
+                    "url": "https://learn.microsoft.com/en-us/training/modules/introduction-end-analytics-use-microsoft-fabric/",
+                    "children": [
+                        {
+                            "name": "Introduction to end-to-end analytics using Microsoft Fabric"
+                        },
+                        {
+                            "name": "Describe the business value of the Microsoft Power Platform"
+                        },
+                        {
+                            "name": "Describe the capabilities of Microsoft Power BI"
+                        },
+                        {
+                            "name": "Demonstrate the capabilities of Microsoft Power Pages"
+                        },
+                        {
+                            "name": "Identify foundational components of Microsoft Power Platform"
+                        },
+                        {
+                            "name": "Describe how to build applications with Microsoft Power Apps"
+                        },
+                        {
+                            "name": "Describe building automation with Microsoft Power Automate"
+                        }
+                    ]
+                },
+                {
+                    "name": "Intermediate",
+                    "url": "https://learn.microsoft.com/en-us/training/modules/get-data-power-bi/",
+                    "children": [
+                        {
+                            "name": "Get data with Power BI Desktop"
+                        },
+                        {
+                            "name": "Configure Power BI report filters"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Business Owner",
+            "children": [
+                {
+                    "name": "Beginner",
+                    "url": "https://learn.microsoft.com/en-us/training/modules/embrace-responsible-ai-principles-practices/",
+                    "children": [
+                        {
+                            "name": "Embrace responsible AI principles and practices"
+                        },
+                        {
+                            "name": "Describe productivity solutions of Microsoft 365"
+                        },
+                        {
+                            "name": "Describe collaboration solutions of Microsoft 365"
+                        },
+                        {
+                            "name": "Describe analytics capabilities of Microsoft 365"
+                        },
+                        {
+                            "name": "Describe endpoint modernization, management concepts, and deployment options in Microsoft 365"
+                        }
+                    ]
+                },
+                {
+                    "name": "Intermediate",
+                    "url": "https://learn.microsoft.com/en-us/training/modules/create-business-value/",
+                    "children": [
+                        {
+                            "name": "Create business value from AI"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Business User",
+            "children": [
+                {
+                    "name": "Beginner",
+                    "url": "https://learn.microsoft.com/en-us/training/modules/explore-core-data-concepts/",
+                    "children": [
+                        {
+                            "name": "Explore core data concepts"
+                        },
+                        {
+                            "name": "Microsoft Cloud Adoption Framework for Azure"
+                        },
+                        {
+                            "name": "Describe the AI authoring experience in Power Platform"
+                        },
+                        {
+                            "name": "Describe access management capabilities of Microsoft Entra ID"
+                        },
+                        {
+                            "name": "Get started with Power Automate"
+                        },
+                        {
+                            "name": "Describe the function and identity types of Microsoft Entra ID"
+                        },
+                        {
+                            "name": "Describe the compliance management capabilities in Microsoft Purview"
+                        },
+                        {
+                            "name": "Build flows to manage user information"
+                        },
+                        {
+                            "name": "Build approval flows with Power Automate"
+                        },
+                        {
+                            "name": "Describe identity concepts"
+                        },
+                        {
+                            "name": "Get started with Power Apps canvas apps"
+                        },
+                        {
+                            "name": "Describe the authentication capabilities of Microsoft Entra ID"
+                        },
+                        {
+                            "name": "Describe Microsoft\u2019s Service Trust portal and privacy capabilities"
+                        },
+                        {
+                            "name": "Describe threat protection with Microsoft Defender XDR"
+                        }
+                    ]
+                },
+                {
+                    "name": "Intermediate",
+                    "url": "https://learn.microsoft.com/en-us/training/modules/power-bi-effective-reports/",
+                    "children": [
+                        {
+                            "name": "Design Power BI reports"
+                        },
+                        {
+                            "name": "Enhance Power BI report designs for the user experience"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Data Analyst",
+            "children": [
+                {
+                    "name": "Beginner",
+                    "url": "https://learn.microsoft.com/en-us/training/modules/get-started-with-power-bi/",
+                    "children": [
+                        {
+                            "name": "Get started building with Power BI"
+                        },
+                        {
+                            "name": "Explore data roles and services"
+                        },
+                        {
+                            "name": "Explore fundamentals of Azure Cosmos DB"
+                        },
+                        {
+                            "name": "Explore relational database services in Azure"
+                        },
+                        {
+                            "name": "Get started with Real-Time Intelligence in Microsoft Fabric"
+                        },
+                        {
+                            "name": "Get started with lakehouses in Microsoft Fabric"
+                        },
+                        {
+                            "name": "Explore fundamental relational data concepts"
+                        },
+                        {
+                            "name": "Microsoft Azure Data Fundamentals: Explore relational data in Azure"
+                        },
+                        {
+                            "name": "Microsoft Azure Data Fundamentals: Explore core data concepts"
+                        },
+                        {
+                            "name": "Get started with data science in Microsoft Fabric"
+                        },
+                        {
+                            "name": "Use Data Factory pipelines in Microsoft Fabric"
+                        },
+                        {
+                            "name": "Get started with data warehouses in Microsoft Fabric"
+                        },
+                        {
+                            "name": "Microsoft Azure Data Fundamentals: Explore non-relational data in Azure"
+                        },
+                        {
+                            "name": "Load data into a Microsoft Fabric data warehouse"
+                        },
+                        {
+                            "name": "Microsoft Azure Data Fundamentals: Explore data analytics in Azure"
+                        },
+                        {
+                            "name": "Query a data warehouse in Microsoft Fabric"
+                        },
+                        {
+                            "name": "Get started with Microsoft Fabric"
+                        }
+                    ]
+                },
+                {
+                    "name": "Intermediate",
+                    "url": "https://learn.microsoft.com/en-us/training/modules/data-analytics-microsoft/",
+                    "children": [
+                        {
+                            "name": "Discover data analysis"
+                        },
+                        {
+                            "name": "Get started with Microsoft data analytics"
+                        },
+                        {
+                            "name": "Use Apache Spark in Microsoft Fabric"
+                        },
+                        {
+                            "name": "Work with Delta Lake tables in Microsoft Fabric"
+                        },
+                        {
+                            "name": "Ingest Data with Dataflows Gen2 in Microsoft Fabric"
+                        },
+                        {
+                            "name": "Clean, transform, and load data in Power BI"
+                        },
+                        {
+                            "name": "Get data in Power BI"
+                        },
+                        {
+                            "name": "Design a semantic model in Power BI"
+                        },
+                        {
+                            "name": "Prepare data for analysis with Power BI"
+                        },
+                        {
+                            "name": "Use DAX time intelligence functions in Power BI Desktop models"
+                        },
+                        {
+                            "name": "Choose a Power BI model framework"
+                        },
+                        {
+                            "name": "Enforce Power BI model security"
+                        },
+                        {
+                            "name": "Manage semantic models in Power BI"
+                        },
+                        {
+                            "name": "Get started with Data Activator in Microsoft Fabric"
+                        },
+                        {
+                            "name": "Create and manage workspaces in Power BI"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Data Engineer",
+            "children": [
+                {
+                    "name": "Beginner",
+                    "url": "https://learn.microsoft.com/en-us/training/modules/examine-components-of-modern-data-warehouse/",
+                    "children": [
+                        {
+                            "name": "Explore fundamentals of large-scale analytics"
+                        },
+                        {
+                            "name": "Microsoft Azure Data Fundamentals"
+                        }
+                    ]
+                },
+                {
+                    "name": "Intermediate",
+                    "url": "https://learn.microsoft.com/en-us/training/modules/introduction-to-data-engineering-azure/",
+                    "children": [
+                        {
+                            "name": "Introduction to data engineering on Azure"
+                        },
+                        {
+                            "name": "Introduction to Azure Data Lake Storage Gen2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Developer",
+            "children": [
+                {
+                    "name": "Beginner",
+                    "url": "https://learn.microsoft.com/en-us/training/modules/introduction-prompt-engineering-with-github-copilot/",
+                    "children": [
+                        {
+                            "name": "Introduction to prompt engineering with GitHub Copilot"
+                        },
+                        {
+                            "name": "Write your first C# code"
+                        },
+                        {
+                            "name": "Fundamentals of Knowledge Mining and Azure AI Search"
+                        },
+                        {
+                            "name": "Store and retrieve data using literal and variable values in C#"
+                        },
+                        {
+                            "name": "Introduction to PowerShell"
+                        },
+                        {
+                            "name": "Perform basic string formatting in C#"
+                        },
+                        {
+                            "name": "Perform basic operations on numbers in C#"
+                        },
+                        {
+                            "name": "Guided project - Calculate and print student grades"
+                        },
+                        {
+                            "name": "Challenge project - Build a minigame with GitHub Copilot and Python"
+                        },
+                        {
+                            "name": "Guided project - Calculate final GPA"
+                        },
+                        {
+                            "name": "Introduction to GitHub Copilot Enterprise"
+                        },
+                        {
+                            "name": "Install and configure Visual Studio Code"
+                        },
+                        {
+                            "name": "Create readable code with conventions, whitespace, and comments in C#"
+                        },
+                        {
+                            "name": "Add decision logic to your code using `if`, `else`, and `else if` statements in C#"
+                        },
+                        {
+                            "name": "Call methods from the .NET Class Library using C#"
+                        },
+                        {
+                            "name": "Store and iterate through sequences of data using Arrays and the foreach statement in C#"
+                        },
+                        {
+                            "name": "Introduction to Python"
+                        },
+                        {
+                            "name": "Challenge project - Develop foreach and if-elseif-else structures to process array data in C#"
+                        },
+                        {
+                            "name": "Transform business software authoring with fusion development teams"
+                        },
+                        {
+                            "name": "Guided project - Develop foreach and if-elseif-else structures to process array data in C#"
+                        },
+                        {
+                            "name": "Branch the flow of code using the switch-case construct in C#"
+                        },
+                        {
+                            "name": "Control variable scope and logic using code blocks in C#"
+                        },
+                        {
+                            "name": "Integrate OpenAPI-enabled Web APIs with Azure API Management through Visual Studio"
+                        },
+                        {
+                            "name": "Introduction to Git"
+                        },
+                        {
+                            "name": "Write your first code using C# (Get started with C#, Part 1)"
+                        },
+                        {
+                            "name": "Understanding Low Code as a Traditional Developer"
+                        },
+                        {
+                            "name": "Iterate through a code block using for statement in C#"
+                        }
+                    ]
+                },
+                {
+                    "name": "Intermediate",
+                    "url": "https://learn.microsoft.com/en-us/training/modules/build-auto-suggest-engine-copilot/",
+                    "children": [
+                        {
+                            "name": "Guided project - Build auto suggest engine with Copilot"
+                        },
+                        {
+                            "name": "Build a Power Apps component"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "DevOps Engineer",
+            "children": [
+                {
+                    "name": "Beginner",
+                    "url": "https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot/",
+                    "children": [
+                        {
+                            "name": "Introduction to GitHub Copilot"
+                        },
+                        {
+                            "name": "Using GitHub Copilot with JavaScript"
+                        },
+                        {
+                            "name": "Using GitHub Copilot with Python"
+                        },
+                        {
+                            "name": "Introduction to GitHub"
+                        },
+                        {
+                            "name": "Maintain a secure repository by using GitHub best practices"
+                        },
+                        {
+                            "name": "Manage an InnerSource program by using GitHub"
+                        },
+                        {
+                            "name": "Contribute to an open-source project on GitHub"
+                        },
+                        {
+                            "name": "Upload your project by using GitHub best practices"
+                        },
+                        {
+                            "name": "Migrate your repository by using GitHub best practices"
+                        },
+                        {
+                            "name": "Create an open-source program by using GitHub best practices"
+                        }
+                    ]
+                },
+                {
+                    "name": "Intermediate",
+                    "url": "https://learn.microsoft.com/en-us/training/modules/create-a-build-pipeline/",
+                    "children": [
+                        {
+                            "name": "Create a build pipeline with Azure Pipelines"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Higher Education Educator",
+            "children": [
+                {
+                    "name": "Beginner",
+                    "url": "https://learn.microsoft.com/en-us/training/courses/empower-every-student-with-inclusive-classroom/",
+                    "children": [
+                        {
+                            "name": "Empower every student with an inclusive classroom"
+                        },
+                        {
+                            "name": "Microsoft AI Bootcamp for Educators \u2013 Azure AI Fundamentals"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "K-12 Educator",
+            "children": [
+                {
+                    "name": "Beginner",
+                    "url": "https://learn.microsoft.com/en-us/training/modules/equip-support-learners-ai-tools-microsoft/",
+                    "children": [
+                        {
+                            "name": "Equip and support learners with AI tools from Microsoft"
+                        },
+                        {
+                            "name": "AI for educators"
+                        },
+                        {
+                            "name": "Enhance school communication and collaboration in Microsoft Teams"
+                        },
+                        {
+                            "name": "Organize content, create assignments, and assess learners\u2019 understanding in Teams"
+                        },
+                        {
+                            "name": "Equip and support learners with AI tools from Microsoft"
+                        },
+                        {
+                            "name": "Build a digital learning hub with Class Teams"
+                        },
+                        {
+                            "name": "Enhance teaching and learning with Microsoft Copilot"
+                        },
+                        {
+                            "name": "Enhance school communication and collaboration in Microsoft Teams"
+                        },
+                        {
+                            "name": "Assemble learners and staff with Microsoft Teams meetings"
+                        },
+                        {
+                            "name": "Organize content, create assignments, and assess learners\u2019 understanding in Teams"
+                        },
+                        {
+                            "name": "Build a digital learning hub with class teams"
+                        },
+                        {
+                            "name": "Get started with Microsoft Teams for Education"
+                        },
+                        {
+                            "name": "Enhance teaching and learning with Microsoft Copilot"
+                        },
+                        {
+                            "name": "Assemble learners and staff with Microsoft Teams meetings"
+                        },
+                        {
+                            "name": "Collaborate with colleagues with staff and PLC teams in Microsoft Teams"
+                        },
+                        {
+                            "name": "Get started with Microsoft Teams for Education"
+                        },
+                        {
+                            "name": "Empower educators to explore the potential of artificial intelligence"
+                        },
+                        {
+                            "name": "Empower every student with an inclusive classroom"
+                        },
+                        {
+                            "name": "Empower educators to explore the potential of artificial intelligence"
+                        },
+                        {
+                            "name": "Microsoft Educator academy"
+                        },
+                        {
+                            "name": "Accessibility: Build the foundation for inclusive learning"
+                        },
+                        {
+                            "name": "Embed 21st century skills with 21st century learning design"
+                        },
+                        {
+                            "name": "Practice collaborative skills with the 21CLD collaboration dimension"
+                        },
+                        {
+                            "name": "Deepen educational experiences with the 21CLD ICT for learning dimension"
+                        },
+                        {
+                            "name": "Develop learner executive function with the 21CLD self-regulation dimension"
+                        },
+                        {
+                            "name": "Innovate learning with the 21CLD real-world problem solving and innovation dimension"
+                        },
+                        {
+                            "name": "Improve communication skills with the 21CLD skilled communication dimension"
+                        },
+                        {
+                            "name": "Get started with OneNote"
+                        },
+                        {
+                            "name": "Accessibility: Build the foundation for inclusive learning"
+                        },
+                        {
+                            "name": "Develop critical thinking skills with the 21CLD knowledge construction dimension"
+                        },
+                        {
+                            "name": "Embed 21st century skills with 21st century learning design"
+                        },
+                        {
+                            "name": "Flipped instruction with PowerPoint Recorder"
+                        },
+                        {
+                            "name": "Deepen educational experiences with the 21CLD ICT for learning dimension"
+                        },
+                        {
+                            "name": "Practice collaborative skills with the 21CLD collaboration dimension"
+                        },
+                        {
+                            "name": "Develop learner executive function with the 21CLD self-regulation dimension"
+                        },
+                        {
+                            "name": "Innovate learning with the 21CLD real-world problem solving and innovation dimension"
+                        },
+                        {
+                            "name": "Improve communication skills with the 21CLD skilled communication dimension"
+                        },
+                        {
+                            "name": "Get started with OneNote"
+                        },
+                        {
+                            "name": "Develop critical thinking skills with the 21CLD knowledge construction dimension"
+                        },
+                        {
+                            "name": "Flipped instruction with PowerPoint Recorder"
+                        },
+                        {
+                            "name": "Microsoft Educator academy"
+                        },
+                        {
+                            "name": "Structure Teams through channels, tabs, files, and apps"
+                        },
+                        {
+                            "name": "Teach forward: Best strategies for hybrid, remote, and blended learning"
+                        },
+                        {
+                            "name": "Structure Teams through channels, tabs, files, and apps"
+                        },
+                        {
+                            "name": "Transform learning with 21st century learning design"
+                        },
+                        {
+                            "name": "Create authentic assessments with Microsoft Forms"
+                        },
+                        {
+                            "name": "Empower school leaders and tech-savvy educators with Windows 11 and Windows 11 SE: Course 101"
+                        },
+                        {
+                            "name": "Transform learning with 21st century learning design"
+                        },
+                        {
+                            "name": "Digital storytelling with Microsoft Sway"
+                        },
+                        {
+                            "name": "Explore the benefits of becoming a Microsoft Educator Trainer"
+                        },
+                        {
+                            "name": "Work collaboratively with Staff and PLC Teams"
+                        },
+                        {
+                            "name": "Build community with Teams and OneNote"
+                        },
+                        {
+                            "name": "Work collaboratively with Staff and PLC Teams"
+                        },
+                        {
+                            "name": "Collaborate with colleagues through live Teams meetings and OneNote"
+                        },
+                        {
+                            "name": "Collaborate with colleagues through live Teams meetings and OneNote"
+                        },
+                        {
+                            "name": "Increase productivity with Office, OneNote, and Edge browser in Windows 11"
+                        },
+                        {
+                            "name": "Converse, collaborate, and build community in Teams"
+                        },
+                        {
+                            "name": "Converse, collaborate, and build community in Teams"
+                        },
+                        {
+                            "name": "Enhance creativity to advance learning with Windows 11 and Microsoft 365 tools"
+                        },
+                        {
+                            "name": "Transition to and prepare for fundamentals-level security, compliance, and identity course"
+                        },
+                        {
+                            "name": "Transition to and prepare for fundamentals-level security, compliance, and identity course"
+                        }
+                    ]
+                },
+                {
+                    "name": "Intermediate",
+                    "url": "https://learn.microsoft.com/en-us/training/paths/21st-century-learning-design/",
+                    "children": [
+                        {
+                            "name": "21st century learning design"
+                        },
+                        {
+                            "name": "Master Microsoft Teams for any learning environment"
+                        },
+                        {
+                            "name": "21st Century Learning Design"
+                        },
+                        {
+                            "name": "Master Microsoft Teams for any learning environment"
+                        },
+                        {
+                            "name": "Engage teachers and students with Windows 11 and Windows 11 SE: Course 201"
+                        },
+                        {
+                            "name": "OneNote Staff Notebook: Tools for staff collaboration"
+                        },
+                        {
+                            "name": "OneNote Class Notebook: A teacher's all-in-one notebook for students"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "School Leader",
+            "children": [
+                {
+                    "name": "Beginner",
+                    "url": "https://learn.microsoft.com/en-us/training/modules/lead-forward-remote-hybrid-blended/",
+                    "children": [
+                        {
+                            "name": "Lead forward: Integrate the best strategies from remote, hybrid, and blended learning for school leaders"
+                        },
+                        {
+                            "name": "Lead forward: Integrate the best strategies from remote, hybrid, and blended learning for school leaders"
+                        },
+                        {
+                            "name": "Teach forward: Best strategies for hybrid, remote, and blended learning"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Security Engineer",
+            "children": [
+                {
+                    "name": "Beginner",
+                    "url": "https://learn.microsoft.com/en-us/training/modules/security-copilot-getting-started/",
+                    "children": [
+                        {
+                            "name": "Describe Microsoft Copilot for Security"
+                        },
+                        {
+                            "name": "Describe the embedded experiences of Microsoft Copilot for Security"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Security Operations Analyst",
+            "children": [
+                {
+                    "name": "Beginner",
+                    "url": "https://learn.microsoft.com/en-us/training/modules/security-copilot-describe-core-features/",
+                    "children": [
+                        {
+                            "name": "Describe the core features of Microsoft Copilot for Security"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Solution Architect",
+            "children": [
+                {
+                    "name": "Beginner",
+                    "url": "https://learn.microsoft.com/en-us/training/modules/azure-well-architected-introduction/",
+                    "children": [
+                        {
+                            "name": "Introduction to the Microsoft Azure Well-Architected Framework"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Student",
+            "children": [
+                {
+                    "name": "Beginner",
+                    "url": "https://learn.microsoft.com/en-us/training/modules/web-development-101-accessibility/",
+                    "children": [
+                        {
+                            "name": "Learn the basics of web accessibility"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Data Scientist",
+            "children": [
+                {
+                    "name": "Intermediate",
+                    "url": "https://learn.microsoft.com/en-us/training/modules/build-copilot-ai-studio/",
+                    "children": [
+                        {
+                            "name": "Build a RAG-based copilot solution with your own data using Azure AI Studio"
+                        },
+                        {
+                            "name": "Get started with prompt flow to develop language model apps in the Azure AI Studio"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Functional Consultant",
+            "children": [
+                {
+                    "name": "Intermediate",
+                    "url": "https://learn.microsoft.com/en-us/training/modules/how-to-build-ui-canvas-app/",
+                    "children": [
+                        {
+                            "name": "How to build the User Interface in a canvas app in Power Apps"
+                        },
+                        {
+                            "name": "Work with entities and variables in Microsoft Copilot Studio"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
