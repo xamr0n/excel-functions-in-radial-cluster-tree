@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MS Learn Collapsible Tree Diagram</title>
+  <title>Collapsible Tree Diagram</title>
   <script src="https://d3js.org/d3.v6.min.js"></script>
   <style>
     body {
@@ -12,14 +12,14 @@
       background-size: cover;
       background-repeat: no-repeat;
       background-attachment: fixed;
-      margin: 0;
+      margin: 50px auto;
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100vh;
+      height: auto;
     }
     svg {
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-shadow: 1px 1px 3px #666;
     }
   </style>
 </head>
@@ -89,10 +89,12 @@
             update(event, d);
           });
 
-        nodeEnter.append("circle")
-          .attr("r", 2.5)
-          .attr("fill", d => d._children ? "#555" : "#999")
-          .attr("stroke-width", 1);
+        nodeEnter.append("image")
+          .attr("xlink:href", d => d.data.icon || 'iconman.png') // Use the icon from data or a default icon
+          .attr("width", 20)
+          .attr("height", 20)
+          .attr("x", -10)  // Center the icon
+          .attr("y", -10); // Center the icon
 
         nodeEnter.append("text")
           .attr("dy", "0.31em")
@@ -110,7 +112,13 @@
               return d._children ? "start" : "start";
             }
           })
-          .html(d => `<a href="${d.data.url}" target="_blank">${d.data.name}</a>`)
+          .html(d => {
+            if (d.data.url) {
+              return `<a href="${d.data.url}" target="_blank">${d.data.name}</a>`;
+            } else {
+              return d.data.name;
+            }
+          })
           .attr("stroke-linejoin", "round")
           .attr("stroke-width", 1)
           .attr("stroke", "transparent")
