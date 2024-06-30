@@ -1,0 +1,579 @@
+{
+  "name": "Root",
+  "icon": "https://example.com/root-icon.png",
+  "children": [
+    {
+      "name": "LEVEL",
+      "children": [
+        {
+          "name": "CATEGORY",
+          "children": [
+            {
+              "name": "LESSONS",
+              "children": [
+                {
+                  "name": "IMAGE",
+                  "children": [
+                    {
+                      "name": "LINK"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Data Scientist",
+      "children": [
+        {
+          "name": "Intermediate",
+          "children": [
+            {
+              "name": "Build a RAG-based copilot solution with your own data using Azure AI Studio",
+              "icon": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/build-copilot-ai-studio/"
+            },
+            {
+              "name": "Get started with prompt flow to develop language model apps in the Azure AI Studio",
+              "icon": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/get-started-prompt-flow-ai-studio/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Developer",
+      "children": [
+        {
+          "name": "Intermediate",
+          "children": [
+            {
+              "name": "Guided project - Build auto suggest engine with Copilot",
+              "icon": "https://learn.microsoft.com/en-us/training/achievements/generic-badge.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/build-auto-suggest-engine-copilot/"
+            },
+            {
+              "name": "Build a Power Apps component",
+              "icon": "https://learn.microsoft.com/en-us/training/achievements/build-power-apps-component.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/build-power-apps-component/"
+            }
+          ]
+        },
+        {
+          "name": "Beginner",
+          "children": [
+            {
+              "name": "Challenge project - Develop foreach and if-elseif-else structures to process array data in C#",
+              "icon": "https://learn.microsoft.com/en-us/training/achievements/challenge-project-arrays-iteration-selection.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/challenge-project-arrays-iteration-selection/"
+            },
+            {
+              "name": "Challenge project - Build a minigame with GitHub Copilot and Python",
+              "icon": "https://learn.microsoft.com/en-us/training/achievements/generic-badge.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/challenge-project-create-mini-game-with-copilot/"
+            },
+            {
+              "name": "Store and iterate through sequences of data using Arrays and the foreach statement in C#",
+              "icon": "https://learn.microsoft.com/en-us/training/achievements/csharp-arrays.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/csharp-arrays/"
+            },
+            {
+              "name": "Perform basic string formatting in C#",
+              "icon": "https://learn.microsoft.com/en-us/training/achievements/csharp-basic-formatting.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/csharp-basic-formatting/"
+            },
+            {
+              "name": "Perform basic operations on numbers in C#",
+              "icon": "https://learn.microsoft.com/en-us/training/achievements/csharp-basic-operations.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/csharp-basic-operations/"
+            },
+            {
+              "name": "Call methods from the .NET Class Library using C#",
+              "icon": "https://learn.microsoft.com/en-us/training/achievements/csharp-call-methods.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/csharp-call-methods/"
+            },
+            {
+              "name": "Control variable scope and logic using code blocks in C#",
+              "icon": "https://learn.microsoft.com/en-us/training/achievements/csharp-code-blocks.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/csharp-code-blocks/"
+            },
+            {
+              "name": "Iterate through a code block using for statement in C#",
+              "icon": "https://learn.microsoft.com/en-us/training/achievements/csharp-for.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/csharp-for/"
+            },
+            {
+              "name": "Add decision logic to your code using `if`, `else`, and `else if` statements in C#",
+              "icon": "https://learn.microsoft.com/en-us/training/achievements/csharp-if-elseif-else.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/csharp-if-elseif-else/"
+            },
+            {
+              "name": "Store and retrieve data using literal and variable values in C#",
+              "icon": "https://learn.microsoft.com/en-us/training/achievements/csharp-literals-variables.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/csharp-literals-variables/"
+            },
+            {
+              "name": "Create readable code with conventions, whitespace, and comments in C#",
+              "icon": "https://learn.microsoft.com/en-us/training/achievements/csharp-readable-code.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/csharp-readable-code/"
+            },
+            {
+              "name": "Branch the flow of code using the switch-case construct in C#",
+              "icon": "https://learn.microsoft.com/en-us/training/achievements/csharp-switch-case.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/csharp-switch-case/"
+            },
+            {
+              "name": "Write your first C# code",
+              "icon": "https://learn.microsoft.com/en-us/training/achievements/csharp-write-first.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/csharp-write-first/"
+            },
+            {
+              "name": "Guided project - Develop foreach and if-elseif-else structures to process array data in C#",
+              "icon": "https://learn.microsoft.com/en-us/training/achievements/guided-project-arrays-iteration-selection.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/guided-project-arrays-iteration-selection/"
+            },
+            {
+              "name": "Guided project - Calculate final GPA",
+              "icon": "https://learn.microsoft.com/en-us/training/achievements/guided-project-calculate-final-gpa.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/guided-project-calculate-final-gpa/"
+            },
+            {
+              "name": "Guided project - Calculate and print student grades",
+              "icon": "https://learn.microsoft.com/en-us/training/achievements/guided-project-calculate-print-student-grades.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/guided-project-calculate-print-student-grades/"
+            },
+            {
+              "name": "Install and configure Visual Studio Code",
+              "icon": "https://learn.microsoft.com/en-us/training/achievements/install-configure-visual-studio-code.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/install-configure-visual-studio-code/"
+            },
+            {
+              "name": "Integrate OpenAPI-enabled Web APIs with Azure API Management through Visual Studio",
+              "icon": "https://learn.microsoft.com/en-us/training/achievements/integrate-openapi-enabled-web-api-with-apim-and-visual-studio.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/integrate-openapi-enabled-web-api-with-apim-and-visual-studio/"
+            },
+            {
+              "name": "Introduction to prompt engineering with GitHub Copilot",
+              "icon": "https://learn.microsoft.com/en-us/training/achievements/generic-badge.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/introduction-prompt-engineering-with-github-copilot/"
+            },
+            {
+              "name": "Introduction to GitHub Copilot Enterprise",
+              "icon": "https://learn.microsoft.com/en-us/training/achievements/generic-badge.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot-enterprise/"
+            },
+            {
+              "name": "Introduction to PowerShell",
+              "icon": "https://learn.microsoft.com/en-us/training/achievements/powershell/introduction-to-powershell.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/introduction-to-powershell/"
+            },
+            {
+              "name": "Fundamentals of Knowledge Mining and Azure AI Search",
+              "icon": "https://learn.microsoft.com/en-us/training/achievements/azure-introduction-to-azure-search.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/intro-to-azure-search/"
+            },
+            {
+              "name": "Introduction to Git",
+              "icon": "https://learn.microsoft.com/en-us/training/achievements/student-evangelism/introduction-to-git-badge.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/intro-to-git/"
+            },
+            {
+              "name": "Introduction to Python",
+              "icon": "https://learn.microsoft.com/en-us/training/achievements/intro-to-python.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/intro-to-python/"
+            },
+            {
+              "name": "Transform business software authoring with fusion development teams",
+              "icon": "https://learn.microsoft.com/en-us/training/achievements/transform-business-software-authoring-with-fusion-development.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/transform-business-software-authoring-with-fusion-dev/"
+            },
+            {
+              "name": "Understanding Low Code as a Traditional Developer",
+              "icon": "https://learn.microsoft.com/en-us/training/achievements/understanding-low-code-development-as-a-traditional-developer.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/understanding-low-code-as-a-traditional-developer/"
+            },
+            {
+              "name": "Write your first code using C# (Get started with C#, Part 1)",
+              "icon": "https://learn.microsoft.com/en-us/training/achievements/get-started-c-sharp-part-1.svg",
+              "url": "https://learn.microsoft.com/en-us/training/paths/get-started-c-sharp-part-1/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DevOps Engineer",
+      "children": [
+        {
+          "name": "Beginner",
+          "children": [
+            {
+              "name": "Contribute to an open-source project on GitHub",
+              "icon": "https://learn.microsoft.com/en-us/training/achievements/github/contribute-to-an-open-source-project-on-github.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/contribute-open-source/"
+            },
+            {
+              "name": "Create an open-source program by using GitHub best practices",
+              "icon": "https://learn.microsoft.com/en-us/training/achievements/github/create-open-source-program-github.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/create-open-source-program-github/"
+            },
+            {
+              "name": "Using GitHub Copilot with JavaScript",
+              "icon": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/introduction-copilot-javascript/"
+            },
+            {
+              "name": "Using GitHub Copilot with Python",
+              "icon": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/introduction-copilot-python/"
+            },
+            {
+              "name": "Introduction to GitHub",
+              "icon": "https://learn.microsoft.com/en-us/training/achievements/github/introduction-to-github.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/introduction-to-github/"
+            },
+            {
+              "name": "Introduction to GitHub Copilot",
+              "icon": "https://learn.microsoft.com/en-us/learn/achievements/generic-badge.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot/"
+            },
+            {
+              "name": "Maintain a secure repository by using GitHub best practices",
+              "icon": "https://learn.microsoft.com/en-us/training/achievements/github/maintain-secure-repository-github.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/maintain-secure-repository-github/"
+            },
+            {
+              "name": "Manage an InnerSource program by using GitHub",
+              "icon": "https://learn.microsoft.com/en-us/training/achievements/github/manage-innersource-program-github.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/manage-innersource-program-github/"
+            },
+            {
+              "name": "Migrate your repository by using GitHub best practices",
+              "icon": "https://learn.microsoft.com/en-us/training/achievements/github/migrate-repository-github.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/migrate-repository-github/"
+            },
+            {
+              "name": "Upload your project by using GitHub best practices",
+              "icon": "https://learn.microsoft.com/en-us/training/achievements/github/upload-project-github.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/upload-project-github/"
+            }
+          ]
+        },
+        {
+          "name": "Intermediate",
+          "children": [
+            {
+              "name": "Create a build pipeline with Azure Pipelines",
+              "icon": "https://learn.microsoft.com/en-us/training/achievements/azure-devops/create-a-build-pipeline-azure-pipelines.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/create-a-build-pipeline/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Functional Consultant",
+      "children": [
+        {
+          "name": "Intermediate",
+          "children": [
+            {
+              "name": "How to build the User Interface in a canvas app in Power Apps",
+              "icon": "https://learn.microsoft.com/en-us/training/achievements/how-to-build-ui-canvas-app.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/how-to-build-ui-canvas-app/"
+            },
+            {
+              "name": "Work with entities and variables in Microsoft Copilot Studio",
+              "icon": "https://learn.microsoft.com/en-us/learn/achievements/power-virtual-agents-entities.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/power-virtual-agents-entities/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Higher Education Educator",
+      "children": [
+        {
+          "name": "Beginner",
+          "children": [
+            {
+              "name": "Empower every student with an inclusive classroom",
+              "icon": "https://learn.microsoft.com/en-us/media/learn/certification/course.svg",
+              "url": "https://learn.microsoft.com/en-us/training/courses/empower-every-student-with-inclusive-classroom/"
+            },
+            {
+              "name": "Microsoft AI Bootcamp for Educators \u2013 Azure AI Fundamentals",
+              "icon": "https://learn.microsoft.com/en-us/media/learn/certification/course.svg",
+              "url": "https://learn.microsoft.com/en-us/training/courses/msle-ai-bootcamp-fun/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "K-12 Educator",
+      "children": [
+        {
+          "name": "Intermediate",
+          "children": [
+            {
+              "name": "21st Century Learning Design",
+              "icon": "https://learn.microsoft.com/en-us/media/learn/certification/course.svg",
+              "url": "https://learn.microsoft.com/en-us/training/courses/21st-century-learning-design/"
+            },
+            {
+              "name": "Master Microsoft Teams for any learning environment",
+              "icon": "https://learn.microsoft.com/en-us/training/achievements/master-microsoft-teams-any-learning-environment.svg",
+              "url": "https://learn.microsoft.com/en-us/training/paths/master-microsoft-teams-any-learning-environment/"
+            },
+            {
+              "name": "Engage teachers and students with Windows 11 and Windows 11 SE: Course 201",
+              "icon": "https://learn.microsoft.com/en-us/training/achievements/windows-11-201.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/windows-11-201/"
+            },
+            {
+              "name": "21st century learning design",
+              "icon": "https://learn.microsoft.com/en-us/training/achievements/21st-century-learning-design.svg",
+              "url": "https://learn.microsoft.com/en-us/training/paths/21st-century-learning-design/"
+            }
+          ]
+        },
+        {
+          "name": "Beginner",
+          "children": [
+            {
+              "name": "Accessibility: Build the foundation for inclusive learning",
+              "icon": "https://learn.microsoft.com/en-us/media/learn/certification/course.svg",
+              "url": "https://learn.microsoft.com/en-us/training/courses/accessibility-build-foundation-inclusive-learning/"
+            },
+            {
+              "name": "Assemble learners and staff with Microsoft Teams meetings",
+              "icon": "https://learn.microsoft.com/en-us/media/learn/certification/course.svg",
+              "url": "https://learn.microsoft.com/en-us/training/courses/assemble-learners-staff-microsoft-teams-meetings/"
+            },
+            {
+              "name": "Build a digital learning hub with class teams",
+              "icon": "https://learn.microsoft.com/en-us/media/learn/certification/course.svg",
+              "url": "https://learn.microsoft.com/en-us/training/courses/build-digital-learning-hub-class-teams/"
+            },
+            {
+              "name": "Collaborate with colleagues through live Teams meetings and OneNote",
+              "icon": "https://learn.microsoft.com/en-us/media/learn/certification/course.svg",
+              "url": "https://learn.microsoft.com/en-us/training/courses/collaborate-colleagues-live-teams-meetings-onenote/"
+            },
+            {
+              "name": "Collaborate with colleagues with staff and PLC teams in Microsoft Teams",
+              "icon": "https://learn.microsoft.com/en-us/media/learn/certification/course.svg",
+              "url": "https://learn.microsoft.com/en-us/training/courses/collaborate-colleagues-staff-plc-teams-microsoft-teams/"
+            },
+            {
+              "name": "Converse, collaborate, and build community in Teams",
+              "icon": "https://learn.microsoft.com/en-us/media/learn/certification/course.svg",
+              "url": "https://learn.microsoft.com/en-us/training/courses/converse-collaborate-build-community-teams/"
+            },
+            {
+              "name": "Deepen educational experiences with the 21CLD ICT for learning dimension",
+              "icon": "https://learn.microsoft.com/en-us/media/learn/certification/course.svg",
+              "url": "https://learn.microsoft.com/en-us/training/courses/deepen-educational-experiences/"
+            },
+            {
+              "name": "Develop critical thinking skills with the 21CLD knowledge construction dimension",
+              "icon": "https://learn.microsoft.com/en-us/media/learn/certification/course.svg",
+              "url": "https://learn.microsoft.com/en-us/training/courses/develop-critical-thinking-skills-with-21cld/"
+            },
+            {
+              "name": "Develop learner executive function with the 21CLD self-regulation dimension",
+              "icon": "https://learn.microsoft.com/en-us/media/learn/certification/course.svg",
+              "url": "https://learn.microsoft.com/en-us/training/courses/develop-learner-executive-function/"
+            },
+            {
+              "name": "Embed 21st century skills with 21st century learning design",
+              "icon": "https://learn.microsoft.com/en-us/media/learn/certification/course.svg",
+              "url": "https://learn.microsoft.com/en-us/training/courses/embed-21st-century-skills-21st-century-learning-design/"
+            },
+            {
+              "name": "Empower educators to explore the potential of artificial intelligence",
+              "icon": "https://learn.microsoft.com/en-us/media/learn/certification/course.svg",
+              "url": "https://learn.microsoft.com/en-us/training/courses/empower-educators-explore-potential-artificial-intelligence/"
+            },
+            {
+              "name": "Enhance school communication and collaboration in Microsoft Teams",
+              "icon": "https://learn.microsoft.com/en-us/media/learn/certification/course.svg",
+              "url": "https://learn.microsoft.com/en-us/training/courses/enhance-school-communication-collaboration-microsoft-teams/"
+            },
+            {
+              "name": "Enhance teaching and learning with Microsoft Copilot",
+              "icon": "https://learn.microsoft.com/en-us/media/learn/certification/course.svg",
+              "url": "https://learn.microsoft.com/en-us/training/courses/enhance-teaching-learning-bing-chat/"
+            },
+            {
+              "name": "Equip and support learners with AI tools from Microsoft",
+              "icon": "https://learn.microsoft.com/en-us/media/learn/certification/course.svg",
+              "url": "https://learn.microsoft.com/en-us/training/courses/equip-support-learners-ai-tools-microsoft/"
+            },
+            {
+              "name": "Flipped instruction with PowerPoint Recorder",
+              "icon": "https://learn.microsoft.com/en-us/media/learn/certification/course.svg",
+              "url": "https://learn.microsoft.com/en-us/training/courses/flipped-instruction-powerpoint-recorder/"
+            },
+            {
+              "name": "Get started with Microsoft Teams for Education",
+              "icon": "https://learn.microsoft.com/en-us/media/learn/certification/course.svg",
+              "url": "https://learn.microsoft.com/en-us/training/courses/get-started-microsoft-teams-education/"
+            },
+            {
+              "name": "Get started with OneNote",
+              "icon": "https://learn.microsoft.com/en-us/media/learn/certification/course.svg",
+              "url": "https://learn.microsoft.com/en-us/training/courses/get-started-with-onenote/"
+            },
+            {
+              "name": "Improve communication skills with the 21CLD skilled communication dimension",
+              "icon": "https://learn.microsoft.com/en-us/media/learn/certification/course.svg",
+              "url": "https://learn.microsoft.com/en-us/training/courses/improve-communication-skills-21cld/"
+            },
+            {
+              "name": "Innovate learning with the 21CLD real-world problem solving and innovation dimension",
+              "icon": "https://learn.microsoft.com/en-us/media/learn/certification/course.svg",
+              "url": "https://learn.microsoft.com/en-us/training/courses/innovate-learning-21cld/"
+            },
+            {
+              "name": "Microsoft Educator academy",
+              "icon": "https://learn.microsoft.com/en-us/training/achievements/microsoft-educator-academy.svg",
+              "url": "https://learn.microsoft.com/en-us/training/paths/microsoft-educator-academy/"
+            },
+            {
+              "name": "Practice collaborative skills with the 21CLD collaboration dimension",
+              "icon": "https://learn.microsoft.com/en-us/training/achievements/practice-collaborative-skills-21cld-collaboration.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/practice-collaborative-skills-21cld-collaboration/"
+            },
+            {
+              "name": "Structure Teams through channels, tabs, files, and apps",
+              "icon": "https://learn.microsoft.com/en-us/training/achievements/structure-teams-channels-tabs-files-apps.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/structure-teams-channels-tabs-files-apps/"
+            },
+            {
+              "name": "Teach forward: Best strategies for hybrid, remote, and blended learning",
+              "icon": "https://learn.microsoft.com/en-us/training/achievements/teach-forward-best-strategies-hybrid-remote-blended-learning.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/teach-forward-best-strategies-hybrid-remote-blended-learning/"
+            },
+            {
+              "name": "Transform learning with 21st century learning design",
+              "icon": "https://learn.microsoft.com/en-us/training/achievements/transform-learning-21st-century-learning-design.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/transform-learning-21st-century-learning-design/"
+            },
+            {
+              "name": "Transition to and prepare for fundamentals-level security, compliance, and identity course",
+              "icon": "https://learn.microsoft.com/en-us/training/achievements/transition-prepare-fundamentals-level-security-compliance-identity.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/transition-prepare-fundamentals-level-security-compliance-identity/"
+            },
+            {
+              "name": "Empower school leaders and tech-savvy educators with Windows 11 and Windows 11 SE: Course 101",
+              "icon": "https://learn.microsoft.com/en-us/training/achievements/windows-11-101.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/windows-11-101/"
+            },
+            {
+              "name": "Work collaboratively with Staff and PLC Teams",
+              "icon": "https://learn.microsoft.com/en-us/training/achievements/working-collaboratively-staff-plc-teams.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/working-collaboratively-staff-plc-teams/"
+            },
+            {
+              "name": "AI for educators",
+              "icon": "https://learn.microsoft.com/en-us/training/achievements/ai-education.svg",
+              "url": "https://learn.microsoft.com/en-us/training/paths/ai-education/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "School Leader",
+      "children": [
+        {
+          "name": "Beginner",
+          "children": [
+            {
+              "name": "Lead forward: Integrate the best strategies from remote, hybrid, and blended learning for school leaders",
+              "icon": "https://learn.microsoft.com/en-us/training/achievements/lead-forward-remote-hybrid-blended.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/lead-forward-remote-hybrid-blended/"
+            },
+            {
+              "name": "Teach forward: Best strategies for hybrid, remote, and blended learning",
+              "icon": "https://learn.microsoft.com/en-us/media/learn/certification/course.svg",
+              "url": "https://learn.microsoft.com/en-us/training/courses/teach-forward-best-strategies-hybrid-remote-blended-learning/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Security Engineer",
+      "children": [
+        {
+          "name": "Beginner",
+          "children": [
+            {
+              "name": "Describe the embedded experiences of Microsoft Copilot for Security",
+              "icon": "https://learn.microsoft.com/en-us/learn/achievements/security-copilot-embedded-experiences.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/security-copilot-embedded-experiences/"
+            },
+            {
+              "name": "Describe Microsoft Copilot for Security",
+              "icon": "https://learn.microsoft.com/en-us/learn/achievements/security-copilot-getting-started.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/security-copilot-getting-started/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Security Operations Analyst",
+      "children": [
+        {
+          "name": "Beginner",
+          "children": [
+            {
+              "name": "Describe the core features of Microsoft Copilot for Security",
+              "icon": "https://learn.microsoft.com/en-us/learn/achievements/security-copilot-describe-core-features.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/security-copilot-describe-core-features/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Solution Architect",
+      "children": [
+        {
+          "name": "Beginner",
+          "children": [
+            {
+              "name": "Introduction to the Microsoft Azure Well-Architected Framework",
+              "icon": "https://learn.microsoft.com/en-us/training/achievements/azure-well-architected-introduction.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/azure-well-architected-introduction/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Student",
+      "children": [
+        {
+          "name": "Beginner",
+          "children": [
+            {
+              "name": "Learn the basics of web accessibility",
+              "icon": "https://learn.microsoft.com/en-us/training/achievements/student-evangelism/web-development-101-accessibility.svg",
+              "url": "https://learn.microsoft.com/en-us/training/modules/web-development-101-accessibility/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
