@@ -3,22 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>VAYYIP</title>
+  <title>vayyip</title>
   <script src="https://d3js.org/d3.v6.min.js"></script>
   <style>
-    html, body {
-      height: 100%;
-      width: 100%;
-      margin: 0;
-      overflow: hidden;
-    }
     body {
       font-family: 'Rockwell Condensed', sans-serif;
       text-shadow: 1px 1px 3px #666;
-      background-image: url('vayp.png');
+      background-image: url('sim.png');
       background-size: cover;
       background-repeat: no-repeat;
-      background-attachment: flex;
+      background-attachment: fixed;
+      margin: 0;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -32,21 +27,23 @@
 </head>
 <body>
   <script>
+    // Load the JSON data
     d3.json('vayyip_json.json').then(data => {
-      const width = 928;
+      const width = 1228;
       const height = width;
       const cx = width * 0.5;
       const cy = height * 0.5;
 
       const tree = d3.cluster()
-          .size([2 * Math.PI, Math.min(width, height) / 3 - 10])
+          .size([2 * Math.PI, Math.min(width, height) / 4 - 10])
           .separation((a, b) => (a.parent == b.parent ? 1 : 1) / a.depth);
 
       const root = tree(d3.hierarchy(data)
           .sort((a, b) => d3.ascending(a.data.name, b.data.name)));
 
+      // Calculate the radius based on the maximum depth of the parent nodes
       const maxParentDepth = d3.max(root.descendants(), d => d.children ? d.depth : d.parent.depth);
-      const radius = Math.min(width, height) / 2 - 40;
+      const radius = Math.min(width, height) / 3 - 40;
       const circleRadius = (radius / (maxParentDepth + 1)) * maxParentDepth;
 
       const svg = d3.create("svg")
@@ -55,6 +52,7 @@
           .attr("viewBox", [-cx, -cy, width, height])
           .attr("style", "width: 100%; height: auto; font: 16px Rockwell Condensed;");
 
+      // Define gradient
       const defs = svg.append("defs");
 
       const gradient = defs.append("radialGradient")
@@ -71,11 +69,11 @@
 
       gradient.append("stop")
         .attr("offset", "100%")
-        .attr("stop-color", "#757155");
+        .attr("stop-color", "#666");
 
       svg.append("g")
           .attr("fill", "url(#gradient)")
-          .attr("stroke", "#fff")
+          .attr("stroke", "#212121")
           .attr("stroke-opacity", 0.3)
           .attr("stroke-width", 0.9)
         .selectAll("path")
@@ -85,6 +83,7 @@
               .angle(d => d.x)
               .radius(d => d.y));
 
+      // Define a clip-path for the background circle image
       defs.append("clipPath")
         .attr("id", "clip-background-circle")
         .append("circle")
@@ -92,6 +91,7 @@
         .attr("cy", 0)
         .attr("r", circleRadius);
 
+      // Append an image element for the background circle with circular clip-path
       const circleImage = svg.append("image")
         .attr("x", -circleRadius)
         .attr("y", -circleRadius)
@@ -99,15 +99,16 @@
         .attr("height", circleRadius * 2)
         .attr("style", "display: block;")
         .attr("clip-path", "url(#clip-background-circle)")
-        .attr("xlink:href", "https://vayyip.net/cdn/shop/files/VAYYIPR102_360x.png?v=1614300173") 
+        .attr("xlink:href", "") // Replace with the actual image URL of main parent
         .attr("preserveAspectRatio", "xMidYMid slice");
 
+      // Define a clip-path for circular images
       defs.append("clipPath")
         .attr("id", "clip-circle")
         .append("circle")
         .attr("cx", 0)
         .attr("cy", 0)
-        .attr("r", 10);
+        .attr("r", 20);
 
       const nodeGroup = svg.append("g")
         .selectAll("image")
@@ -115,20 +116,17 @@
         .join("image")
           .attr("class", "node-image")
           .attr("transform", d => `rotate(${d.x * 180 / Math.PI - 90}) translate(${d.y},0)`)
-          .attr("xlink:href", d => d.data.icon || '236.png')
+          .attr("xlink:href", d => d.data.icon || 'nof.png')
           .attr("width", 40)
           .attr("height", 40)
-          .attr("x", -20)
-          .attr("y", -20)
+          .attr("x", -20)  // Center the icon
+          .attr("y", -20)  // Center the icon
           .attr("clip-path", "url(#clip-circle)");
 
       nodeGroup.on("mouseover", function(event, d) {
         if (d.data.icon) {
           d3.select(this)
-            .attr("width", 40)
-            .attr("height", 40)
-            .attr("x", -20)
-            .attr("y", -20);
+            .attr("clip-path", "url(#clip-circle)"); // Ensure clip-path is applied
           circleImage.attr("xlink:href", d.data.icon)
             .attr("style", "display: block;");
           
@@ -138,14 +136,12 @@
         }
       }).on("mouseout", function(event) {
         d3.select(this)
-          .attr("width", 40)
-          .attr("height", 40)
-          .attr("x", -20)
-          .attr("y", -20);
-        circleImage.attr("style", "display: none;");
+          .attr("clip-path", "url(#clip-circle)"); // Ensure clip-path is applied
+        circleImage.attr("style", "display: block;")
+          .attr("xlink:href", "https://vayyip.net/cdn/shop/files/VAYYIPR102_360x.png?v=1614300173"); // Reset to main parent icon
         
         svg.selectAll("path")
-          .attr("opacity", .9);
+          .attr("opacity", 1);
         nodeGroup.attr("opacity", 1);
       });
 
