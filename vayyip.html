@@ -73,7 +73,7 @@
 
       svg.append("g")
           .attr("fill", "url(#gradient)")
-          .attr("stroke", "#212121")
+          .attr("stroke", "#757155")
           .attr("stroke-opacity", 0.3)
           .attr("stroke-width", 0.9)
         .selectAll("path")
@@ -99,7 +99,7 @@
         .attr("height", circleRadius * 2)
         .attr("style", "display: block;")
         .attr("clip-path", "url(#clip-background-circle)")
-        .attr("xlink:href", "") // Replace with the actual image URL of main parent
+        .attr("xlink:href","https://vayyip.net/cdn/shop/files/VAYYIPR102_360x.png?v=1614300173") // Replace with the actual image URL of main parent
         .attr("preserveAspectRatio", "xMidYMid slice");
 
       // Define a clip-path for circular images
@@ -108,7 +108,7 @@
         .append("circle")
         .attr("cx", 0)
         .attr("cy", 0)
-        .attr("r", 20);
+        .attr("r", 10);
 
       const nodeGroup = svg.append("g")
         .selectAll("image")
@@ -117,10 +117,10 @@
           .attr("class", "node-image")
           .attr("transform", d => `rotate(${d.x * 180 / Math.PI - 90}) translate(${d.y},0)`)
           .attr("xlink:href", d => d.data.icon || 'nof.png')
-          .attr("width", 40)
-          .attr("height", 40)
-          .attr("x", -20)  // Center the icon
-          .attr("y", -20)  // Center the icon
+          .attr("width", 20)
+          .attr("height", 20)
+          .attr("x", -10)  // Center the icon
+          .attr("y", -10)  // Center the icon
           .attr("clip-path", "url(#clip-circle)");
 
       nodeGroup.on("mouseover", function(event, d) {
