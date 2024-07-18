@@ -1,0 +1,326 @@
+{
+  "name": "VAYYIP",
+  "icon": "https://vayyip.net/cdn/shop/files/VAYYIPR102_360x.png?v=1614300173",
+  "children": [
+    {
+      "name": "AED 100",
+      "children": [
+        {
+          "name": "MYLE META",
+          "icon": "https://vayyip.net/cdn/shop/files/black_580x.webp?v=1691426968",
+          "url": "https://vayyip.net/collections/myle/products/myle-meta-pod-device"
+        },
+        {
+          "name": "UWELL CALIBURN",
+          "icon": "https://vayyip.net/cdn/shop/products/caliburn-g-uwell_580x.jpg?v=1602915024",
+          "url": "https://vayyip.net/collections/pods/products/uwell-caliburn-g-15w-pod-system-kit-690mah"
+        }
+      ]
+    },
+    {
+      "name": "AED 110",
+      "children": [
+        {
+          "name": "URSA NANO",
+          "icon": "https://vayyip.net/cdn/shop/files/Opera-Snapshot_2024-01-26_185352_www.instagram.com_580x.png?v=1714208308",
+          "url": "https://vayyip.net/collections/new-arrivals/products/ursa-nano-pro-2-kit-30w-1000mah"
+        }
+      ]
+    },
+    {
+      "name": "AED 130",
+      "children": [
+        {
+          "name": "VOOPOO ARGUS",
+          "icon": "https://vayyip.net/cdn/shop/files/voopoo-argus-p2-vape-kit_4_580x.jpg?v=1715705239",
+          "url": "https://vayyip.net/collections/new-arrivals/products/voopoo-argus-p2-pod-kit"
+        }
+      ]
+    },
+    {
+      "name": "AED 160",
+      "children": [
+        {
+          "name": "SMOK NORD",
+          "icon": "https://vayyip.net/cdn/shop/products/Smok-Nord-4-Patterned-Colors-650x800_580x.jpg?v=1641115878",
+          "url": "https://vayyip.net/collections/pods/products/smok-nord-4-80w-pod-kit-2000mah"
+        }
+      ]
+    },
+    {
+      "name": "AED 20",
+      "children": [
+        {
+          "name": "IQOS HEETS",
+          "icon": "https://vayyip.net/cdn/shop/products/HEETS-Sienna-Outer1000x800px_pqh2-bi_580x.jpg?v=1583136448",
+          "url": "https://vayyip.net/collections/best-sellers/products/iqos-heets-uae-certified-version"
+        }
+      ]
+    },
+    {
+      "name": "AED 220",
+      "children": [
+        {
+          "name": "HOK CLOUDS",
+          "icon": "https://vayyip.net/cdn/shop/files/bbblue_580x.png?v=1717179981",
+          "url": "https://vayyip.net/collections/new-arrivals/products/hok-clouds-e-shisha"
+        }
+      ]
+    },
+    {
+      "name": "AED 25",
+      "children": [
+        {
+          "name": "TUGBOAT EVO",
+          "icon": "https://vayyip.net/cdn/shop/files/tugboatevo_580x.png?v=1685536471",
+          "url": "https://vayyip.net/collections/best-sellers/products/tugboat-evo-4500-puffs-disposable-vape"
+        }
+      ]
+    },
+    {
+      "name": "AED 35",
+      "children": [
+        {
+          "name": "BLUECAT BC",
+          "icon": "https://vayyip.net/cdn/shop/files/bluecat_580x.png?v=1716574141",
+          "url": "https://vayyip.net/collections/new-arrivals/products/bluecat-bc12000-50mg-disposable"
+        },
+        {
+          "name": "MASKKING HIGH",
+          "icon": "https://vayyip.net/cdn/shop/files/mkgts_1_580x.png?v=1684862519",
+          "url": "https://vayyip.net/collections/best-sellers/products/maskking-high-gts-2500puffs-2-20mg-nicotine"
+        },
+        {
+          "name": "SALTNIC LUSH",
+          "icon": "https://vayyip.net/cdn/shop/files/vgodluchissalt_580x.png?v=1683645144",
+          "url": "https://vayyip.net/collections/best-sellers/products/saltnic-lush-ice"
+        },
+        {
+          "name": "TESIYI MINI",
+          "icon": "https://vayyip.net/cdn/shop/files/portmini-9_580x.jpg?v=1716612472",
+          "url": "https://vayyip.net/collections/new-arrivals/products/tesiyi-mini-8000-2"
+        }
+      ]
+    },
+    {
+      "name": "AED 40",
+      "children": [
+        {
+          "name": "BAZOOKA VAPE",
+          "icon": "https://vayyip.net/cdn/shop/products/334C30D6-AA38-4DD0-AD6C-ECDF7DC1C855_580x.jpg?v=1602931486",
+          "url": "https://vayyip.net/collections/ejuice/products/bazooka-vape-strawberry-sour-straws"
+        },
+        {
+          "name": "DR. VAPES BLACK",
+          "icon": "https://vayyip.net/cdn/shop/products/84122176_119649166263608_6087975955762844656_n_2000x_f8114fa4-08eb-4521-a34a-39c673637937_580x.jpg?v=1585381347",
+          "url": "https://vayyip.net/collections/ejuice/products/dr-vapes-black-panther"
+        },
+        {
+          "name": "DR. VAPES PINK",
+          "icon": "https://vayyip.net/cdn/shop/products/pink-panther-60ml_580x.jpg?v=1572330566",
+          "url": "https://vayyip.net/collections/ejuice/products/pink-panther-60ml"
+        },
+        {
+          "name": "ELF BAR",
+          "icon": "https://vayyip.net/cdn/shop/files/Yuoto-DIGI-Disposable-15000-1200x900_580x.png?v=1715584621",
+          "url": "https://vayyip.net/collections/new-arrivals/products/elf-bar-ep8000-puffs-20mg-disposable-vape"
+        },
+        {
+          "name": "FROZEN BLAST",
+          "icon": "https://vayyip.net/cdn/shop/products/50058866_186731708968839_5210612199855836891_n_580x.jpg?v=1582012620",
+          "url": "https://vayyip.net/collections/ejuice/products/frozen-blast-berry-by-sam-vapes-1"
+        },
+        {
+          "name": "ICED BLUE",
+          "icon": "https://vayyip.net/cdn/shop/files/Iced_Blue_Razz_Premium_SaltNic_580x.jpg?v=1716038922",
+          "url": "https://vayyip.net/collections/new-arrivals/products/iced-blue-razz-premium-saltnic-by-vgod"
+        },
+        {
+          "name": "ICED BUBBLE",
+          "icon": "https://vayyip.net/cdn/shop/files/43ee3140-25ab-47fd-bd1d-d1409320d152_580x.jpg?v=1716037474",
+          "url": "https://vayyip.net/collections/new-arrivals/products/iced-bubble-watermelon-premium-saltnic-by-vgod"
+        },
+        {
+          "name": "ICED PEACH",
+          "icon": "https://vayyip.net/cdn/shop/files/Iced_Peach_Mango_Premium_SaltNic_580x.jpg?v=1716039084",
+          "url": "https://vayyip.net/collections/new-arrivals/products/iced-peach-mango-premium-saltnic-by-vgod"
+        },
+        {
+          "name": "MYLE (EMPTY PODS)",
+          "icon": "https://vayyip.net/cdn/shop/products/5-flavors-myle-empty-pods-cartridge-for-myle_580x.jpg?v=1572330513",
+          "url": "https://vayyip.net/collections/myle/products/myle-empty-pods-4-pcs"
+        },
+        {
+          "name": "MYLE APPLE",
+          "icon": "https://vayyip.net/cdn/shop/products/myle-iced-apple-mango_580x.jpg?v=1572330522",
+          "url": "https://vayyip.net/collections/myle/products/myle-pod-iced-apple-mango"
+        },
+        {
+          "name": "MYL\u00c9 POD",
+          "icon": "https://vayyip.net/cdn/shop/products/Empty-Pod-Packaging_2000x_4be4f602-f4a8-4691-9e7e-5b75b9c289b9_580x.png?v=1608217038",
+          "url": "https://vayyip.net/collections/myle/products/myle-pod-v-4"
+        },
+        {
+          "name": "MYLE POUND CAKE",
+          "icon": "https://vayyip.net/cdn/shop/products/myle-pound-cake_580x.jpg?v=1572330517",
+          "url": "https://vayyip.net/collections/myle/products/myle-pod-pound-cake"
+        },
+        {
+          "name": "MYLE SWEET MANGO",
+          "icon": "https://vayyip.net/cdn/shop/products/9-myle-vape-pods-sweet-mango_580x.jpg?v=1572330517",
+          "url": "https://vayyip.net/collections/myle/products/myle-pod-sweet-mango"
+        },
+        {
+          "name": "MYLE VAPETASIA",
+          "icon": "https://vayyip.net/cdn/shop/products/myle-vapetasia-killer-kustard_580x.jpg?v=1572330519",
+          "url": "https://vayyip.net/collections/myle/products/vapetasia-killer-kustard-vape-pods-by-myle"
+        },
+        {
+          "name": "MYLE WATERMELON",
+          "icon": "https://vayyip.net/cdn/shop/products/myle-iced-watermelon_580x.jpg?v=1572335592",
+          "url": "https://vayyip.net/collections/myle/products/myle-pod-iced-watermelon"
+        },
+        {
+          "name": "SAM VAPES",
+          "icon": "https://vayyip.net/cdn/shop/products/mellomelon_580x.jpg?v=1588347460",
+          "url": "https://vayyip.net/collections/ejuice/products/sam-vapes-mello-melon-frozen-60ml"
+        },
+        {
+          "name": "TOKYO CHOCOMINT",
+          "icon": "https://vayyip.net/cdn/shop/files/Tokyo-Super-Cool-Salt-nic-Chocomint-Ice-Socola-Bac-Ha-Lanh-35mg-50mg-30ml_580x.jpg?v=1713632518",
+          "url": "https://vayyip.net/collections/new-arrivals/products/tokyo-chocomint-ice-super-cool-30ml"
+        },
+        {
+          "name": "TOKYO COLA",
+          "icon": "https://vayyip.net/cdn/shop/files/Tokyo-Super-Cool-Salt-nic-Coca-Cola-Ice-Coca-Lanh-35mg-50mg-30ml_580x.jpg?v=1713632820",
+          "url": "https://vayyip.net/collections/new-arrivals/products/tokyo-cola-ice-super-cool-30ml"
+        },
+        {
+          "name": "TOKYO SUPER",
+          "icon": "https://vayyip.net/cdn/shop/files/Tokyo-Super-Cool-Blood-Orange-30ml-Juice_580x.webp?v=1713634428",
+          "url": "https://vayyip.net/collections/new-arrivals/products/tokyo-super-cool-blood-orange-30ml"
+        },
+        {
+          "name": "VCR BY RIPE",
+          "icon": "https://vayyip.net/cdn/shop/products/VCT-by-Ripe-Vapes-60ml-Main_580x.jpg?v=1572330724",
+          "url": "https://vayyip.net/collections/ejuice/products/vct-by-ripe-vapes-3mg-60ml"
+        },
+        {
+          "name": "VELO COOL",
+          "icon": "https://vayyip.net/cdn/shop/files/download_26fc65a6-efd0-433f-8d03-6c0773e5ae61_580x.jpg?v=1715444774",
+          "url": "https://vayyip.net/collections/new-arrivals/products/velo-cool-storm-x-strong-slim-11mg"
+        },
+        {
+          "name": "VELO FREEZE",
+          "icon": "https://vayyip.net/cdn/shop/files/download_862d42b3-4b38-4f80-bcb7-e97b54a3b830_580x.jpg?v=1715445258",
+          "url": "https://vayyip.net/collections/new-arrivals/products/velo-freeze-x-strong-11mg"
+        },
+        {
+          "name": "VELO FROSTY",
+          "icon": "https://vayyip.net/cdn/shop/files/download_79e88326-9f1d-49f9-825d-5fc16ca8fe05_580x.jpg?v=1715445024",
+          "url": "https://vayyip.net/collections/new-arrivals/products/velo-frosty-grapefruit-slim-strong-10mg"
+        },
+        {
+          "name": "VELO X",
+          "icon": "https://vayyip.net/cdn/shop/files/VeloXFreezeMaxCZ_snusme_s_580x.webp?v=1715444450",
+          "url": "https://vayyip.net/collections/new-arrivals/products/velo-x-freeze-max-17mg"
+        }
+      ]
+    },
+    {
+      "name": "AED 45",
+      "children": [
+        {
+          "name": "BECO OSENS",
+          "icon": "https://vayyip.net/cdn/shop/files/2_31c8572d-f952-4232-a44f-9d5595635880_580x.webp?v=1698997462",
+          "url": "https://vayyip.net/collections/best-sellers/products/beco-osens-xl-10000-puffs-50mg"
+        },
+        {
+          "name": "DROPS BY",
+          "icon": "https://vayyip.net/cdn/shop/products/Capture_580x.PNG?v=1572330401",
+          "url": "https://vayyip.net/collections/best-sellers/products/drops-by-blis-grape-mint-60ml"
+        },
+        {
+          "name": "ELF BAR",
+          "icon": "https://vayyip.net/cdn/shop/files/Screenshot-2023-11-14-at-09.40.36_580x.png?v=1705997259",
+          "url": "https://vayyip.net/collections/best-sellers/products/elf-bar-bc10000-puffs-20mg"
+        },
+        {
+          "name": "FROZEN FRUIT",
+          "icon": "https://vayyip.net/cdn/shop/files/frozen_fm_passion_orange_guava_580x.webp?v=1716820831",
+          "url": "https://vayyip.net/collections/new-arrivals/products/frozen-fruit-monster-salt-passionfruit-orange-guava-ice-30ml-20mg"
+        },
+        {
+          "name": "MYLE META",
+          "icon": "https://vayyip.net/cdn/shop/files/pmw_580x.webp?v=1691427840",
+          "url": "https://vayyip.net/collections/myle/products/myle-meta-v5-pods"
+        },
+        {
+          "name": "MYLE MINI",
+          "icon": "https://vayyip.net/cdn/shop/products/image_360x_2464aa59-52c0-4226-a743-57bcd382147c_580x.jpg?v=1574664196",
+          "url": "https://vayyip.net/collections/myle/products/myle-mini-disposable-device"
+        }
+      ]
+    },
+    {
+      "name": "AED 50",
+      "children": [
+        {
+          "name": "HOK CLOUD",
+          "icon": "https://vayyip.net/cdn/shop/files/3.1_580x.png?v=1717181686",
+          "url": "https://vayyip.net/collections/new-arrivals/products/hok-cloud-layal-kit-refills-3mg-9000-puffs"
+        },
+        {
+          "name": "IGNITE V",
+          "icon": "https://vayyip.net/cdn/shop/files/COMPRE1LEVE3_10_2048x_1252fd33-9337-4ec7-8be7-8e0a892a4d8d_580x.webp?v=1716610334",
+          "url": "https://vayyip.net/collections/new-arrivals/products/ignite-v80-vape"
+        },
+        {
+          "name": "TUGBOAT T",
+          "icon": "https://vayyip.net/cdn/shop/files/9551e9eb-3368-40b2-a39b-b584bdcc140d_580x.jpg?v=1702025628",
+          "url": "https://vayyip.net/collections/best-sellers/products/tugboat-t-12000-puffs-disposable-50mg-5-nicotine"
+        }
+      ]
+    },
+    {
+      "name": "AED 55",
+      "children": [
+        {
+          "name": "M.TERK",
+          "icon": "https://vayyip.net/cdn/shop/products/kake_580x.jpg?v=1594406884",
+          "url": "https://vayyip.net/collections/ejuice/products/m-terk-terkish-kake"
+        }
+      ]
+    },
+    {
+      "name": "AED 65",
+      "children": [
+        {
+          "name": "INSTABAR WT",
+          "icon": "https://vayyip.net/cdn/shop/files/8a127da6-ebf1-46cf-b9a3-4a6f7ee8a584_580x.jpg?v=1704909538",
+          "url": "https://vayyip.net/collections/best-sellers/products/instabar-wt15000-disposable-5"
+        }
+      ]
+    },
+    {
+      "name": "AED 80",
+      "children": [
+        {
+          "name": "SMOK NOVO",
+          "icon": "https://vayyip.net/cdn/shop/products/smok-novo-2-pod-system-vape-kits-1296x_360x_9fbfc635-b464-4909-bdfa-99f55d2694d3_580x.jpg?v=1572330640",
+          "url": "https://vayyip.net/collections/pods/products/smok-novo-2-25w-pod-system"
+        },
+        {
+          "name": "VAPORESSO RENOVA",
+          "icon": "https://vayyip.net/cdn/shop/products/Vaporesso-Renova-Zero-Mesh-Pod-Kit-650mAh_0070763550c5_580x.jpg?v=1594033746",
+          "url": "https://vayyip.net/collections/pods/products/vaporesso-renova-zero-mesh-pod-kit-650mah"
+        },
+        {
+          "name": "VAPORESSO XROS",
+          "icon": "https://vayyip.net/cdn/shop/products/all_fe5693_580x.jpg?v=1628753687",
+          "url": "https://vayyip.net/collections/pods/products/vaporesso-xros-mini-pod-kit-1000mah"
+        }
+      ]
+    }
+  ]
+}
